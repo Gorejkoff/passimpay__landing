@@ -424,20 +424,20 @@ body._touch .header__button-svg {
 ._pc .header__anhor-paragraph a::before {
   content: "";
   position: absolute;
-  bottom: 0px;
+  bottom: 1px;
   left: 50%;
   width: 0%;
-  min-height: 1px;
+  min-height: 1.5px;
   background-color: #FF6600;
   transition: width 0.5s;
 }
 ._pc .header__anhor-paragraph a::after {
   content: "";
   position: absolute;
-  bottom: 0px;
+  bottom: 1px;
   right: 50%;
   width: 0%;
-  min-height: 1px;
+  min-height: 1.5px;
   background-color: #FF6600;
   transition: width 0.5s;
 }
