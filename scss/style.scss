@@ -129,8 +129,8 @@ body.body_overflow {
    top: 0;
    left: 0;
    z-index: 9;
-   min-width: 100%;
-   min-height: 100%;
+   min-width: 100vw;
+   min-height: 100vh;
    overflow: hidden;
 }
 
@@ -154,7 +154,7 @@ body.body_overflow {
    position: fixed;
    top: 0;
    left: 0;
-   width: 100%;
+   min-width: 100vw;
    min-height: 100vh;
    overflow: hidden;
    pointer-events: none;

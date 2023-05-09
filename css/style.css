@@ -1200,8 +1200,8 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
   top: 0;
   left: 0;
   z-index: 9;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -1225,7 +1225,7 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  min-width: 100vw;
   min-height: 100vh;
   overflow: hidden;
   pointer-events: none;

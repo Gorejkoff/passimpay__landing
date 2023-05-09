@@ -158,7 +158,7 @@
 <g filter="url(#filter1_d_12_1298)">
 <rect x="201" y="50" width="150" height="134" rx="10" fill="#9796FB"/>
 <text x="220" y="120"><tspan style="fill:#ffffff; font-size: 48px; font-weight: 500;">3,5%</tspan></text>
-<text x="220" y="150"><tspan style="fill:#ffffff; font-size: 14px;">Withdrawal</tspan></text>
+<text x="22" y="150"><tspan style="fill:#ffffff; font-size: 14px;">Withdrawal</tspan></text>
 </g>
 <g filter="url(#filter2_d_12_1298)">
 <rect x="4" y="211" width="150" height="134" rx="10" fill="#9796FB"/>
