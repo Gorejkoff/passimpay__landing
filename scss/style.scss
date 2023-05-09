@@ -52,8 +52,8 @@ body.body_overflow {
    color: #ffffff;
    font-weight: 700;
    background-color: #ffb17d;
-   border-radius: 30px;
    outline: 4px solid #ff660033;
+   border-radius: 30px;
    overflow: hidden;
 
    &__text {
@@ -92,6 +92,7 @@ body.body_overflow {
       width: 48px;
       height: calc(100% - 8px);
       margin: 4px;
+      border-radius: 30px;
    }
 
    &:hover {

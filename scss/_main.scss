@@ -86,8 +86,10 @@
    }
 
    &__title {
-      font-size: 64px;
       margin-bottom: 24px;
+      font-size: 64px;
+      font-weight: 500;
+
 
       @media (max-width:991.98px) {
          font-size: 50px;
@@ -236,20 +238,9 @@
 
 .opportunity {
 
-   &__body {
-      margin-bottom: 100px;
+   &__body {}
 
-      @media (max-width:1400px) {
-         margin-bottom: calc(100vw / 14);
-      }
-   }
 
-   &__body:last-child {
-      @media (min-width:1400px) {
-         margin-bottom: 50px;
-      }
-
-   }
 
    &__container {}
 
@@ -447,6 +438,7 @@
    &__item-text {
       display: block;
       text-align: start;
+      line-height: 150%;
       overflow: hidden;
       max-height: 0px;
       padding-top: 0px;
@@ -461,15 +453,15 @@ body._pc .tabs__item-element:hover .tabs__item-title-icon {
 
 body._pc .tabs__item-element:hover .tabs__item-text,
 body._touch .tabs__item-element.tabs__open .tabs__item-text {
-   max-height: 70px;
+   max-height: 90px;
    padding-top: 15px;
 
    @media (max-width:1400px) {
-      max-height: calc(70px + (1px - (100vw / 1400)) * 150);
+      max-height: calc(90px + (1px - (100vw / 1400)) * 150);
    }
 
    @media (max-width:766.98px) {
-      max-height: calc(70px + (1px - (100vw / 1400)) * 200);
+      max-height: calc(90px + (1px - (100vw / 1400)) * 200);
    }
 }
 

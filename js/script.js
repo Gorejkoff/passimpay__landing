@@ -246,7 +246,7 @@ window.addEventListener('load', function (win) {
          setTimeout(e => {
             document.querySelector('.slick-prev').prepend(arrowFight);
             document.querySelector('.slick-next').prepend(arrowLeft);
-         }, 100)
+         }, 500)
       } else {
          if (overlay.isOpened) {
             overlay.close();

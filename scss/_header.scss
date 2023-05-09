@@ -60,16 +60,17 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 20px 30px;
+      padding: 16px 30px;
       background-color: #ffffff;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.04);
       border-radius: 30px;
 
       @media (max-width:1200px) {
-         padding: 20px 15px;
+         padding: 16px 15px;
       }
 
       @media (max-width:991.98px) {
-         padding: 20px 10px;
+         padding: 16px 10px;
       }
 
       @media (max-width:766.98px) {
@@ -84,6 +85,7 @@
 
       span {
          display: block;
+         line-height: 200%;
 
          @media (max-width:766.98px) {
             transform: translate(0px, -100%);
@@ -270,10 +272,10 @@ body._touch .header__button-svg {
    &::before {
       content: '';
       position: absolute;
-      bottom: 0px;
+      bottom: 1px;
       left: 50%;
       width: 0%;
-      min-height: 1px;
+      min-height: 1.5px;
       background-color: #FF6600;
       transition: width 0.5s;
 
@@ -282,10 +284,10 @@ body._touch .header__button-svg {
    &::after {
       content: '';
       position: absolute;
-      bottom: 0px;
+      bottom: 1px;
       right: 50%;
       width: 0%;
-      min-height: 1px;
+      min-height: 1.5px;
       background-color: #FF6600;
       transition: width 0.5s;
    }
