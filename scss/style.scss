@@ -126,11 +126,12 @@ body.body_overflow {
 
 .shape-overlays {
    position: absolute;
-   z-index: 9;
-   min-width: 100vw;
-   min-height: 100vh;
    top: 0;
    left: 0;
+   z-index: 9;
+   min-width: 100%;
+   min-height: 100%;
+   overflow: hidden;
 }
 
 .shape-overlays path:nth-of-type(1) {
@@ -155,7 +156,7 @@ body.body_overflow {
    left: 0;
    width: 100%;
    min-height: 100vh;
-   overflow-x: hidden;
+   overflow: hidden;
    pointer-events: none;
 
    @media (min-width:766.98px) {
