@@ -5,6 +5,7 @@
    background-color: #f5f8fbe6;
    backdrop-filter: blur(6px);
 
+
    &__conteiner {}
 
    &__body {
@@ -15,6 +16,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+
    }
 
    &__logo {
@@ -62,8 +64,11 @@
       align-items: center;
       padding: 16px 30px;
       background-color: #ffffff;
-      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.04);
       border-radius: 30px;
+
+      @media (min-width:766.98px) {
+         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.04);
+      }
 
       @media (max-width:1200px) {
          padding: 16px 15px;
