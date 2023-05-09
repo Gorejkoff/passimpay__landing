@@ -194,6 +194,7 @@ body.body_overflow {
   padding: 24px 0px;
 }
 .header__shell {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1202,6 +1203,7 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
   z-index: 9;
   min-width: 100vw;
   min-height: 100vh;
+  box-sizing: border-box;
   overflow: hidden;
 }
 

@@ -5,18 +5,18 @@
    background-color: #f5f8fbe6;
    backdrop-filter: blur(6px);
 
-
    &__conteiner {}
 
    &__body {
       padding: 24px 0px;
+
    }
 
    &__shell {
+      position: relative; //!!
       display: flex;
       justify-content: space-between;
       align-items: center;
-
    }
 
    &__logo {

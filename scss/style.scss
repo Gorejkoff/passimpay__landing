@@ -131,6 +131,7 @@ body.body_overflow {
    z-index: 9;
    min-width: 100vw;
    min-height: 100vh;
+   box-sizing: border-box;
    overflow: hidden;
 }
 
