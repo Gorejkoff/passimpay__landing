@@ -1218,11 +1218,15 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
   fill: #ffffff;
 }
 
+.shape-overlays path:nth-of-type(4) {
+  fill: #ad3c3c;
+}
+
 .header__fon {
   position: fixed;
   top: 0;
   left: 0;
-  min-width: 100vw;
+  width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
   pointer-events: none;
