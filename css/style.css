@@ -3,15 +3,15 @@
 @font-face {
   font-family: "Nekst";
   font-display: swap;
-  src: url("../fonds/nekst-bold.woff") format("woff");
-  font-weight: 700;
+  src: url("../fonds/Nekst-SemiBold.woff2") format("woff2"), url("../fonds/Nekst-SemiBold.woff") format("woff");
+  font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Nekst";
   font-display: swap;
-  src: url("../fonds/nekst-semibold.woff") format("woff");
-  font-weight: 600;
+  src: url("../fonds/Nekst-Bold.woff2") format("woff2"), url("../fonds/Nekst-Bold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
 }
 * {
@@ -133,7 +133,7 @@ body.body_overflow {
   color: #ffffff;
   font-weight: 700;
   background-color: #ffb17d;
-  outline: 4px solid rgba(255, 102, 0, 0.2);
+  box-shadow: 0px 0px 0px 4px rgba(255, 102, 0, 0.2);
   border-radius: 30px;
   overflow: hidden;
 }
@@ -300,7 +300,7 @@ body.body_overflow {
 @media (max-width: 766.98px) {
   .header__button {
     width: 100%;
-    max-width: 215px;
+    min-width: 215px;
   }
 }
 .header__button a {
@@ -591,12 +591,22 @@ body._touch .header__button-svg {
 }
 .first-screen__body {
   width: 100%;
+  top: 190px;
 }
 @media (min-width: 766.98px) {
   .first-screen__body {
     position: absolute;
-    top: 115px;
     left: 0;
+  }
+}
+@media (max-width: 1400px) {
+  .first-screen__body {
+    top: 13.5714285714vw;
+  }
+}
+@media (max-width: 991.98px) {
+  .first-screen__body {
+    top: 16.4285714286vw;
   }
 }
 @media (max-width: 766.98px) {
@@ -772,6 +782,9 @@ body._touch .header__button-svg {
   .opportunity__block {
     flex-direction: column;
   }
+}
+.opportunity__image {
+  font-family: "Nekst";
 }
 .opportunity__image svg {
   width: 100%;
@@ -1120,7 +1133,16 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
 }
 
 @media (max-width: 766.98px) {
-  body._touch .header__button.footer_button .header__button-svg {
+  body._touch .header__button.footer_button .header__button-text {
+    display: block;
+    width: 100%;
+    text-align: end;
+  }
+  body._touch .header__button.footer_button a {
+    display: block;
+    padding-right: 0;
+  }
+  body._touch .header__button.footer_button .header__button-svg svg {
     display: none;
   }
 }

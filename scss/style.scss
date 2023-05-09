@@ -4,16 +4,20 @@
 @font-face {
    font-family: 'Nekst';
    font-display: swap;
-   src: url("../fonds/nekst-bold.woff") format("woff");
-   font-weight: 700;
+   src:
+      url("../fonds/Nekst-SemiBold.woff2") format("woff2"),
+      url("../fonds/Nekst-SemiBold.woff") format("woff");
+   font-weight: 600;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'Nekst';
    font-display: swap;
-   src: url("../fonds/nekst-semibold.woff") format("woff");
-   font-weight: 600;
+   src:
+      url("../fonds/Nekst-Bold.woff2") format("woff2"),
+      url("../fonds/Nekst-Bold.woff") format("woff");
+   font-weight: 700;
    font-style: normal;
 }
 
@@ -52,7 +56,7 @@ body.body_overflow {
    color: #ffffff;
    font-weight: 700;
    background-color: #ffb17d;
-   outline: 4px solid #ff660033;
+   box-shadow: 0px 0px 0px 4px #ff660033;
    border-radius: 30px;
    overflow: hidden;
 

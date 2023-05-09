@@ -88,6 +88,7 @@
 
    @media (max-width:766.98px) {
       background-color: transparent;
+
    }
 
    .header__button-text {
@@ -108,8 +109,21 @@
 
 
 
-body._touch .header__button.footer_button .header__button-svg {
+body._touch .header__button.footer_button {
    @media (max-width:766.98px) {
-      display: none;
+      .header__button-text {
+         display: block;
+         width: 100%;
+         text-align: end;
+      }
+
+      a {
+         display: block;
+         padding-right: 0;
+      }
+
+      .header__button-svg svg {
+         display: none;
+      }
    }
 }
