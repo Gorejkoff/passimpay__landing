@@ -157,6 +157,10 @@ body.body_overflow {
    min-height: 100vh;
    overflow-x: hidden;
    pointer-events: none;
+
+   @media (min-width:766.98px) {
+      display: none;
+   }
 }
 
 

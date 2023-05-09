@@ -862,6 +862,7 @@ body._touch .header__button-svg {
 .tabs {
   position: relative;
   padding: 130px 0px;
+  margin-bottom: 30px;
 }
 @media (max-width: 1400px) {
   .tabs {
@@ -1115,23 +1116,20 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
   padding: 10px;
 }
 
-.header__button.footer_button {
-  display: block;
-}
 @media (max-width: 766.98px) {
-  .header__button.footer_button {
+  body._touch .header__button.footer_button {
     background-color: transparent;
   }
 }
 @media (max-width: 766.98px) {
-  .header__button.footer_button .header__button-text {
+  body._touch .header__button.footer_button .header__button-text {
     color: #161616;
     opacity: 0.6;
     font-weight: 500;
   }
 }
 @media (max-width: 766.98px) {
-  .header__button.footer_button a {
+  body._touch .header__button.footer_button a {
     padding: 10px;
   }
 }
@@ -1230,6 +1228,11 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
   min-height: 100vh;
   overflow-x: hidden;
   pointer-events: none;
+}
+@media (min-width: 766.98px) {
+  .header__fon {
+    display: none;
+  }
 }
 
 .observer {

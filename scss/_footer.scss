@@ -83,12 +83,10 @@
 }
 
 
-.header__button.footer_button {
-   display: block;
+body._touch .header__button.footer_button {
 
    @media (max-width:766.98px) {
       background-color: transparent;
-
    }
 
    .header__button-text {
@@ -110,6 +108,8 @@
 
 
 body._touch .header__button.footer_button {
+
+
    @media (max-width:766.98px) {
       .header__button-text {
          display: block;

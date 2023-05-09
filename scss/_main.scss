@@ -353,6 +353,7 @@
 .tabs {
    position: relative;
    padding: 130px 0px;
+   margin-bottom: 30px;
 
    @media (max-width:1400px) {
       padding: calc(100vw / 1400 * 150) 0px;

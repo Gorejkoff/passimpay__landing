@@ -262,8 +262,6 @@ window.addEventListener('load', function (win) {
 
    /* эффект при прокрутке, ленивая подгрузка */
    if (document.querySelector('.observer')) {
-      console.log('1');
-
       let options = {
          rootMargin: '-150px 0px',
          threshold: [0, 1],
