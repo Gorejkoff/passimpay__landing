@@ -76,7 +76,15 @@
 <path d="M1031.93 320C1031.43 317.82 1008.42 227.98 1008.42 227.98H1032.31" stroke="url(#paint34_linear_10_747)" stroke-width="1.76" stroke-miterlimit="10"/>
 <path d="M1020.76 332.41H881.94" stroke="url(#paint35_linear_10_747)" stroke-width="1.76" stroke-miterlimit="10"/>
 <path d="M1383.81 147.36C1347.32 133.15 1307.41 126.79 1268.35 128.99L1265.78 83.2201C1311.32 80.6601 1357.9 88.0701 1400.46 104.64L1383.82 147.36H1383.81Z" stroke="url(#paint36_linear_10_747)" stroke-width="1.09" stroke-miterlimit="10"/>
-<path d="M989.27 99.97H1182.07" stroke="url(#paint37_linear_10_747)" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+
+
+
+ <path d="M989.27 99.97H1182.07" stroke="url(#paint37_linear_10_747)" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
+
+
+
+
+
 <path d="M989.27 108.8H1085.67" stroke="url(#paint38_linear_10_747)" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M989.27 117.62H1096.57" stroke="url(#paint39_linear_10_747)" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M989.27 155.83H1046.73" stroke="url(#paint40_linear_10_747)" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
@@ -358,7 +366,7 @@
 <stop stop-color="#197CE1"/>
 <stop offset="1" stop-color="#197CE1" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint35_linear_10_747" x1="-nan" y1="-nan" x2="-nan" y2="-nan" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint35_linear_10_747" gradientUnits="userSpaceOnUse">
 <stop stop-color="#197CE1"/>
 <stop offset="1" stop-color="#197CE1" stop-opacity="0"/>
 </linearGradient>
@@ -367,27 +375,34 @@
 <stop offset="0.66" stop-color="white" stop-opacity="0.33"/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint37_linear_10_747" x1="-nan" y1="-nan" x2="-nan" y2="-nan" gradientUnits="userSpaceOnUse">
+
+
+
+<linearGradient id="paint37_linear_10_747"  gradientUnits="userSpaceOnUse">
 <stop stop-color="#197CE1"/>
 <stop offset="1" stop-color="#197CE1" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint38_linear_10_747" x1="-nan" y1="-nan" x2="-nan" y2="-nan" gradientUnits="userSpaceOnUse">
+
+
+
+
+<linearGradient id="paint38_linear_10_747" gradientUnits="userSpaceOnUse">
 <stop stop-color="#197CE1"/>
 <stop offset="1" stop-color="#197CE1" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint39_linear_10_747" x1="-nan" y1="-nan" x2="-nan" y2="-nan" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint39_linear_10_747" gradientUnits="userSpaceOnUse">
 <stop stop-color="#197CE1"/>
 <stop offset="1" stop-color="#197CE1" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint40_linear_10_747" x1="-nan" y1="-nan" x2="-nan" y2="-nan" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint40_linear_10_747" gradientUnits="userSpaceOnUse">
 <stop stop-color="#197CE1"/>
 <stop offset="1" stop-color="#197CE1" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint41_linear_10_747" x1="-nan" y1="-nan" x2="-nan" y2="-nan" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint41_linear_10_747"  gradientUnits="userSpaceOnUse">
 <stop stop-color="#197CE1"/>
 <stop offset="1" stop-color="#197CE1" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint42_linear_10_747" x1="-nan" y1="-nan" x2="-nan" y2="-nan" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint42_linear_10_747"  gradientUnits="userSpaceOnUse">
 <stop stop-color="#197CE1"/>
 <stop offset="1" stop-color="#197CE1" stop-opacity="0"/>
 </linearGradient>
@@ -500,7 +515,7 @@
 <stop stop-color="#F1F6FF"/>
 <stop offset="1" stop-color="#F1F6FF" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint62_linear_10_747" x1="-nan" y1="-nan" x2="-nan" y2="-nan" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint62_linear_10_747"  gradientUnits="userSpaceOnUse">
 <stop stop-color="#1B44C0"/>
 <stop offset="0.31" stop-color="#1A47C1"/>
 <stop offset="0.55" stop-color="#1A51C7"/>
@@ -508,7 +523,7 @@
 <stop offset="0.98" stop-color="#1979DF"/>
 <stop offset="1" stop-color="#197CE1"/>
 </linearGradient>
-<linearGradient id="paint63_linear_10_747" x1="-nan" y1="-nan" x2="-nan" y2="-nan" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint63_linear_10_747"  gradientUnits="userSpaceOnUse">
 <stop stop-color="#1B44C0"/>
 <stop offset="0.31" stop-color="#1A47C1"/>
 <stop offset="0.55" stop-color="#1A51C7"/>
@@ -516,7 +531,7 @@
 <stop offset="0.98" stop-color="#1979DF"/>
 <stop offset="1" stop-color="#197CE1"/>
 </linearGradient>
-<linearGradient id="paint64_linear_10_747" x1="-nan" y1="-nan" x2="-nan" y2="-nan" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint64_linear_10_747"  gradientUnits="userSpaceOnUse">
 <stop stop-color="#1B44C0"/>
 <stop offset="0.31" stop-color="#1A47C1"/>
 <stop offset="0.55" stop-color="#1A51C7"/>
@@ -524,7 +539,7 @@
 <stop offset="0.98" stop-color="#1979DF"/>
 <stop offset="1" stop-color="#197CE1"/>
 </linearGradient>
-<linearGradient id="paint65_linear_10_747" x1="-nan" y1="-nan" x2="-nan" y2="-nan" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint65_linear_10_747"  gradientUnits="userSpaceOnUse">
 <stop stop-color="#1B44C0"/>
 <stop offset="0.31" stop-color="#1A47C1"/>
 <stop offset="0.55" stop-color="#1A51C7"/>

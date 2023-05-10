@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .slick-slider {
   min-width: 0;
 }
@@ -11,12 +10,6 @@
   display: flex;
 }
 
-/* Слайд */
-/* Слайд активный (показывается) */
-/* Слайд основной */
-/* Слайд по центру */
-/* Клонированный слайд */
-/* Стрелка */
 .slick-arrow {
   position: absolute;
   bottom: -55px;
@@ -31,17 +24,10 @@
   font-size: 0px;
 }
 
-/* Стрелка влево */
 .slick-arrow.slick-prev {
   transform: translate(calc(-100% - 5px), 0%);
 }
 
-/* Стрелка вправо */
 .slick-arrow.slick-next {
   transform: translate(5px, 0%);
 }
-
-/* Стрелка не активная */
-/* Точки (булиты) */
-/* Активная точка */
-/* Элемент точки */

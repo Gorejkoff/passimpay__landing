@@ -263,7 +263,7 @@ window.addEventListener('load', function (win) {
    /* эффект при прокрутке, ленивая подгрузка */
    if (document.querySelector('.observer')) {
       let options = {
-         rootMargin: '-150px 0px',
+         rootMargin: '-100px 0px',
          threshold: [0, 1],
       }
       let callback = function (entries, observer) {

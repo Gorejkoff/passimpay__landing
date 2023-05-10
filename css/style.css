@@ -1,5 +1,4 @@
-@charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:regular,500,700,);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:regular,500,700);
 @font-face {
   font-family: "Nekst";
   font-display: swap;
@@ -1162,12 +1161,6 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
   display: flex;
 }
 
-/* Слайд */
-/* Слайд активный (показывается) */
-/* Слайд основной */
-/* Слайд по центру */
-/* Клонированный слайд */
-/* Стрелка */
 .slick-arrow {
   position: absolute;
   bottom: -55px;
@@ -1182,29 +1175,22 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
   font-size: 0px;
 }
 
-/* Стрелка влево */
 .slick-arrow.slick-prev {
   transform: translate(calc(-100% - 5px), 0%);
 }
 
-/* Стрелка вправо */
 .slick-arrow.slick-next {
   transform: translate(5px, 0%);
 }
 
-/* Стрелка не активная */
-/* Точки (булиты) */
-/* Активная точка */
-/* Элемент точки */
 .shape-overlays {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 9;
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .shape-overlays path:nth-of-type(1) {
@@ -1219,15 +1205,11 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
   fill: #ffffff;
 }
 
-.shape-overlays path:nth-of-type(4) {
-  fill: #ad3c3c;
-}
-
 .header__fon {
   position: fixed;
   top: 0;
   left: 0;
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
   overflow: hidden;
   pointer-events: none;

@@ -94,37 +94,19 @@
 <path d="M565.225 378.552L483.469 380.472" stroke="white" stroke-miterlimit="10"/>
 <path d="M519.449 385.445L483.469 386.295" stroke="white" stroke-miterlimit="10"/>
 <path d="M473.34 387.509C476.026 385.545 476.929 382.21 475.357 380.06C473.785 377.909 470.333 377.758 467.647 379.722C464.961 381.685 464.058 385.02 465.63 387.171C467.202 389.321 470.654 389.472 473.34 387.509Z" stroke="white" stroke-miterlimit="10"/>
-<g filter="url(#filter0_d_0_11101)">
-<rect x="609" y="148" width="220" height="110" rx="10" fill="#9796FB" shape-rendering="crispEdges"/>
+<g >
+<rect x="605" y="144" width="220" height="110" rx="10" fill="#524EC6"/>
+<rect x="609" y="148" width="220" height="110" rx="10" fill="#9796FB"/>
 </g>
-<g filter="url(#filter1_d_0_11101)">
-<rect x="4" y="244" width="220" height="110" rx="10" fill="#524EC6" shape-rendering="crispEdges"/>
+<g >
+<rect x="0" y="240" width="220" height="110" rx="10" fill="#9796FB"/>
+<rect x="4" y="244" width="220" height="110" rx="10" fill="#524EC6"/>
 </g>
 <text x="20" y="307"><tspan style="fill:#ffffff; font-size: 50px; font-weight: 500;">32000+</tspan></text>
 <text x="20" y="335"><tspan style="fill:#ffffff; font-size: 14px;">Active users</tspan></text>
 <text x="630" y="207"><tspan style="fill:#ffffff; font-size: 50px; font-weight: 500;">15000+</tspan></text>
 <text x="630" y="235"><tspan style="fill:#ffffff; font-size: 14px;">Projects with us</tspan></text>
-
-
 <defs>
-<filter id="filter0_d_0_11101" x="605" y="144" width="224" height="114" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dx="-4" dy="-4"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.321569 0 0 0 0 0.305882 0 0 0 0 0.776471 0 0 0 1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_11101"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_11101" result="shape"/>
-</filter>
-<filter id="filter1_d_0_11101" x="0" y="240" width="224" height="114" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dx="-4" dy="-4"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.592157 0 0 0 0 0.588235 0 0 0 0 0.984314 0 0 0 1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_11101"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_11101" result="shape"/>
-</filter>
 <linearGradient id="paint0_linear_0_11101" x1="101.621" y1="314.51" x2="684.697" y2="314.51" gradientUnits="userSpaceOnUse">
 <stop stop-color="#197CE1"/>
 <stop offset="1" stop-color="#9FBDFF"/>
