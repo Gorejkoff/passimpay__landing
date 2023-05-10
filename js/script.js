@@ -217,6 +217,7 @@ window.addEventListener('load', function (win) {
       // фон меню
       if (event.target.closest('.header__burger')) {
          overlay.toggle();
+         document.querySelector('.header__burger').classList.toggle('header__burger-active')
          headerAnhorParagraph.forEach(e => {
             e.classList.toggle('is-opened', overlay.isOpened);
          })
@@ -225,6 +226,7 @@ window.addEventListener('load', function (win) {
       } else {
          if (overlay.isOpened) {
             overlay.close();
+            document.querySelector('.header__burger').classList.remove('header__burger-active');
             headerAnhorParagraph.forEach(e => {
                e.classList.remove('is-opened');
             })
