@@ -1229,7 +1229,7 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
 }
 
 .shape-overlays path:nth-of-type(3) {
-  fill: #ffffff;
+  fill: #f5f8fb;
 }
 
 .header__fon {
