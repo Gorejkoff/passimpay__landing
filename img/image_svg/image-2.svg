@@ -154,19 +154,19 @@
 <rect x="564" y="4" width="205" height="142" rx="10" fill="#1843BF"/>
 </g>
 <text x="585" y="78"><tspan style="fill:#ffffff; font-size: 48px; font-weight: 500;">24/7</tspan></text>
-<text x="585" y="100"><tspan style="fill:#ffffff; font-size: 14px;">Support speaking</tspan></text>
-<text x="585" y="122"><tspan style="fill:#ffffff; font-size: 14px;">Russian and English</tspan></text>
+<text x="585" y="100"><tspan style="fill:#ffffff;">Support speaking</tspan></text>
+<text x="585" y="122"><tspan style="fill:#ffffff;">Russian and English</tspan></text>
 <g>
 <rect x="197" y="46" width="150" height="134" rx="10" fill="#524EC6"/>
 <rect x="201" y="50" width="150" height="134" rx="10" fill="#9796FB"/>
 <text x="220" y="120"><tspan style="fill:#ffffff; font-size: 48px; font-weight: 500;">3,5%</tspan></text>
-<text x="220" y="150"><tspan style="fill:#ffffff; font-size: 14px;">Withdrawal</tspan></text>
+<text x="220" y="150"><tspan style="fill:#ffffff;">Withdrawal</tspan></text>
 </g>
 <g>
 <rect x="0" y="207" width="150" height="134" rx="10" fill="#524EC6"/>
 <rect x="4" y="211" width="150" height="134" rx="10" fill="#9796FB"/>
 <text x="20" y="280"><tspan style="fill:#ffffff; font-size: 48px; font-weight: 500;">Free</tspan></text>
-<text x="20" y="310"><tspan style="fill:#ffffff; font-size: 14px;">Top up</tspan></text>
+<text x="20" y="310"><tspan style="fill:#ffffff;">Top up</tspan></text>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
