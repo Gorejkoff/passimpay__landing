@@ -838,7 +838,6 @@ html.body_overflow body .header__menu {
 }
 
 .first-screen__documents-element {
-  margin: 10px 20px;
   padding: 14px 20px;
   -webkit-box-flex: 1;
       -ms-flex: 1 0 30%;
@@ -1175,6 +1174,9 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-column-gap: 5px;
+     -moz-column-gap: 5px;
+          column-gap: 5px;
 }
 
 .slick-arrow {
@@ -1681,5 +1683,11 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
 @media (min-width: 991.98px), (max-width: 766.98px) {
   .header__logo-small {
     display: none;
+  }
+}
+
+@media (max-width: 1023.98px) and (min-width: 766.98px) {
+  .opportunity__body {
+    margin-bottom: 50px;
   }
 }
