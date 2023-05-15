@@ -1019,17 +1019,21 @@ html.body_overflow body .header__menu {
   transition: transform 0.7s, -webkit-transform 0.7s;
 }
 
-.tabs__item-text {
-  padding-top: 0px;
+.tabs__item-block {
   display: block;
   max-height: 0px;
+  overflow: hidden;
+  -webkit-transition: max-height 0.7s cubic-bezier(0.39, 0, 0.64, 0.99);
+  -o-transition: max-height 0.7s cubic-bezier(0.39, 0, 0.64, 0.99);
+  transition: max-height 0.7s cubic-bezier(0.39, 0, 0.64, 0.99);
+}
+
+.tabs__item-text {
+  padding-top: 15px;
+  display: block;
   color: #565656;
   text-align: start;
   line-height: 150%;
-  overflow: hidden;
-  -webkit-transition: max-height 0.7s, padding-top 0.7s;
-  -o-transition: max-height 0.7s, padding-top 0.7s;
-  transition: max-height 0.7s, padding-top 0.7s;
 }
 
 body._touch .tabs__item-element.tabs__open .tabs__item-title-icon,
@@ -1039,10 +1043,9 @@ body._pc .tabs__item-element:hover .tabs__item-title-icon {
           transform: rotate(0deg);
 }
 
-body._pc .tabs__item-element:hover .tabs__item-text,
-body._touch .tabs__item-element.tabs__open .tabs__item-text {
+body._pc .tabs__item-element:hover .tabs__item-block,
+body._touch .tabs__item-element.tabs__open .tabs__item-block {
   max-height: 60px;
-  padding-top: 15px;
 }
 
 .popular {
@@ -1319,8 +1322,8 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
     padding: 10.7142857143vw 0px;
   }
 
-  body._pc .tabs__item-element:hover .tabs__item-text,
-  body._touch .tabs__item-element.tabs__open .tabs__item-text {
+  body._pc .tabs__item-element:hover .tabs__item-block,
+  body._touch .tabs__item-element.tabs__open .tabs__item-block {
     max-height: calc(60px + (1px - 0.0714285714vw) * 80);
   }
 
@@ -1611,8 +1614,8 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
     font-size: 24px;
   }
 
-  body._pc .tabs__item-element:hover .tabs__item-text,
-  body._touch .tabs__item-element.tabs__open .tabs__item-text {
+  body._pc .tabs__item-element:hover .tabs__item-block,
+  body._touch .tabs__item-element.tabs__open .tabs__item-block {
     max-height: calc(60px + (1px - 0.0714285714vw) * 110);
   }
 
@@ -1670,8 +1673,8 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
 }
 
 @media (max-width: 499.98px) {
-  body._pc .tabs__item-element:hover .tabs__item-text,
-  body._touch .tabs__item-element.tabs__open .tabs__item-text {
+  body._pc .tabs__item-element:hover .tabs__item-block,
+  body._touch .tabs__item-element.tabs__open .tabs__item-block {
     max-height: calc(60px + (1px - 0.0714285714vw) * 170);
   }
 }
