@@ -453,11 +453,11 @@ html.body_overflow body .header__menu {
   }
 }
 
-._pc .header__anhor-paragraph a {
+._pc .anhor-hover-line a {
   position: relative;
 }
 
-._pc .header__anhor-paragraph a::before {
+._pc .anhor-hover-line a::before {
   content: "";
   position: absolute;
   bottom: 1px;
@@ -470,7 +470,7 @@ html.body_overflow body .header__menu {
   transition: width 0.5s;
 }
 
-._pc .header__anhor-paragraph a::after {
+._pc .anhor-hover-line a::after {
   content: "";
   position: absolute;
   bottom: 1px;
@@ -483,15 +483,15 @@ html.body_overflow body .header__menu {
   transition: width 0.5s;
 }
 
-._pc .header__anhor-paragraph:hover a::before {
+._pc .anhor-hover-line:hover a::before {
   width: 50%;
 }
 
-._pc .header__anhor-paragraph:hover a::after {
+._pc .anhor-hover-line:hover a::after {
   width: 50%;
 }
 
-._pc .header__anhor-paragraph:hover span {
+._pc .anhor-hover-line:hover span {
   -webkit-animation: wor 0.5s ease-out;
           animation: wor 0.5s ease-out;
 }
@@ -838,6 +838,7 @@ html.body_overflow body .header__menu {
 }
 
 .first-screen__documents-element {
+  margin: 10px 20px;
   padding: 14px 20px;
   -webkit-box-flex: 1;
       -ms-flex: 1 0 30%;
@@ -1156,10 +1157,17 @@ body._touch .tabs__item-element.tabs__open .tabs__item-text {
 
 .footer__anhor-paragraph {
   margin: 0px 20px;
+  overflow: hidden;
+}
+
+.footer__anhor-paragraph span {
+  display: block;
+  line-height: 200%;
 }
 
 .footer__anhor-paragraph a {
-  padding: 10px;
+  display: block;
+  margin: 0px 10px;
 }
 
 .slick-slider {
