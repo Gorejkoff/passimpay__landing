@@ -1417,8 +1417,12 @@ body._pc .tabs__item-element:hover .tabs__item-title-icon {
     width: 2000px;
   }
 
-  .tabs__item-text {
+  .tabs__item-title-text {
     font-size: 18px;
+  }
+
+  .tabs__item-text {
+    font-size: 16px;
   }
 
   .popular__title {
